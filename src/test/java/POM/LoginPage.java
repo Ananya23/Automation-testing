@@ -36,6 +36,7 @@ public class LoginPage {
 	{
 		setUserName(user);
 		setPassword(pass);
+		clickLogin();
 		return new WelcomePage(driver);
 	}
 }

@@ -39,7 +39,7 @@ public class DataBase {
           try {
         	  
         	  Thread.sleep(3000);
-        	  driver.findElement(By.id("welcome")).click();
+        	  driver.findElement(By.xpath("//a[@id='welcome']")).click();
         	  Thread.sleep(2000);
         	  driver.findElement(By.linkText("Logout")).click();
         	  System.out.println("Login Done");
