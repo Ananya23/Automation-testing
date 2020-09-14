@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13775" started-at="2020-09-14T17:11:54Z" finished-at="2020-09-14T17:12:07Z">
+    <groups>
+    </groups>
+    <test name="Googletest" duration-ms="13775" started-at="2020-09-14T17:11:54Z" finished-at="2020-09-14T17:12:07Z">
+      <class name="Day10.GoogleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Day10.GoogleTest@3b69e7d1]" name="beforeTest" is-config="true" duration-ms="4204" started-at="2020-09-14T17:11:54Z" finished-at="2020-09-14T17:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:Day10.GoogleTest@3b69e7d1]" name="titleTest" duration-ms="3029" started-at="2020-09-14T17:11:58Z" description="Title test of Google " finished-at="2020-09-14T17:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="searchTest1()[pri:0, instance:Day10.GoogleTest@3b69e7d1]" name="searchTest1" duration-ms="2191" started-at="2020-09-14T17:12:01Z" description="Search Test" depends-on-methods="Day10.GoogleTest.titleTest" finished-at="2020-09-14T17:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Day10.GoogleTest@3b69e7d1]" name="afterTest" is-config="true" duration-ms="4178" started-at="2020-09-14T17:12:03Z" finished-at="2020-09-14T17:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Day10.GoogleTest -->
+    </test> <!-- Googletest -->
+  </suite> <!-- Suite -->
+</testng-results>
